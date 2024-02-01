@@ -3,7 +3,8 @@ import pandas as pd
 import os
 # Define the form
 def create_form():
-    st.title("Employee Verification Form")
+    st.title("Employment Verification Form")
+    st.image("pic.jpg", caption="Please fill out all the sections carefully!!!", width=700)
 
     company_name = st.text_input("Company or employer name:")
     company_address = st.text_input("Company or employer address:")
